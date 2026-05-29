@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Gebruik Face ID om snel en veilig in te loggen in de app en acties te bevestigen (bijv. het opslaan van slaaplogboeken). Face‑ID‑gegevens verlaten je apparaat nooit.",
+  "NSMicrophoneUsageDescription": "De microfoon wordt gebruikt wanneer je ‘Droom opnemen’ aantikt – we zetten je spraak om in tekst voor droomanalyse. De opname wordt veilig verzonden voor transcriptie en daarna direct verwijderd; deze wordt niet op onze servers opgeslagen."
+}

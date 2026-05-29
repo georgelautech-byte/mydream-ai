@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Använd Face ID för att snabbt och säkert logga in i appen och bekräfta åtgärder (t.ex. spara sömnloggar). Face ID‑data lämnar aldrig din enhet.",
+  "NSMicrophoneUsageDescription": "Mikrofonen används när du trycker på ”Spela in dröm” – vi omvandlar ditt tal till text för drömanalys. Inspelningen skickas säkert för transkribering och raderas sedan omedelbart; den lagras inte på våra servrar."
+}

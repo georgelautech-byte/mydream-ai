@@ -1,0 +1,43 @@
+{
+  "cli": {
+    "version": ">= 9.2.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "simulator-development": {
+      "ios": {
+        "simulator": true,
+        "developmentClient": true,
+        "distribution": "internal"
+      }
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "SENTRY_AUTH_TOKEN": "",
+        "SENTRY_ALLOW_FAILURE": "true",
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true"
+      }
+    },
+    "apk-build": {
+      "env": {
+        "SENTRY_AUTH_TOKEN": "",
+        "SENTRY_ALLOW_FAILURE": "true",
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

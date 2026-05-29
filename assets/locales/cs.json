@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Použijte Face ID pro rychlé a bezpečné přihlášení do aplikace a potvrzení akcí (např. uložení záznamů spánku). Data Face ID nikdy neopustí vaše zařízení.",
+  "NSMicrophoneUsageDescription": "Mikrofon se používá, když klepnete na „Zaznamenat sen“ — vaši řeč převedeme na text pro analýzu snu. Záznam se bezpečně odešle k přepisu a poté se ihned odstraní; na našich serverech se neukládá."
+}

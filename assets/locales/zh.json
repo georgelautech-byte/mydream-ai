@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "使用 Face ID 可快速、安全地登录应用并确认操作（例如保存睡眠记录）。Face ID 数据始终保留在您的设备上。",
+  "NSMicrophoneUsageDescription": "当您点击“记录梦境”时将使用麦克风——我们会将您的语音转换为文本，以分析梦境。录音会安全地发送至服务器进行转写，然后立即删除，不会存储在我们的服务器上。"
+}

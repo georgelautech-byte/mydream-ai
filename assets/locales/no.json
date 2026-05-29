@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Bruk Face ID for å logge inn i appen raskt og sikkert og bekrefte handlinger (f.eks. lagre søvndagbok). Face ID‑data forlater aldri enheten din.",
+  "NSMicrophoneUsageDescription": "Mikrofonen brukes når du trykker «Ta opp drøm» – vi gjør talen din om til tekst for drømmeanalyse. Opptaket sendes sikkert for transkripsjon og slettes umiddelbart; det lagres ikke på våre servere."
+}

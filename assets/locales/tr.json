@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Face ID kullanarak uygulamaya hızlı ve güvenli şekilde giriş yapın ve işlemleri onaylayın (ör. uyku kayıtlarını kaydetme). Face ID verileri asla cihazınızdan ayrılmaz.",
+  "NSMicrophoneUsageDescription": "Mikrofon, “Rüyayı Kaydet”e dokunduğunuzda kullanılır — konuşmanızı metne çevirerek rüya analizi yaparız. Kayıt, güvenli bir şekilde yazıya dökülmek üzere sunucuya gönderilir ve ardından hemen silinir; sunucularımızda saklanmaz."
+}

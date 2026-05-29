@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Utilisez Face ID pour vous connecter rapidement et en toute sécurité à l’application et confirmer des actions (p. ex. enregistrer des journaux de sommeil). Les données Face ID ne quittent jamais votre appareil.",
+  "NSMicrophoneUsageDescription": "Le microphone est utilisé lorsque vous appuyez sur « Enregistrer le rêve » : nous convertissons votre voix en texte pour l’analyse des rêves. L’enregistrement est envoyé de façon sécurisée pour transcription puis immédiatement supprimé ; il n’est pas stocké sur nos serveurs."
+}

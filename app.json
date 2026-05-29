@@ -1,0 +1,177 @@
+{
+  "expo": {
+    "name": "MyDream AI",
+    "slug": "Dream-lens",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "locales": {
+      "en": "./assets/locales/en.json",
+      "tr": "./assets/locales/tr.json",
+      "cs": "./assets/locales/cs.json",
+      "de": "./assets/locales/de.json",
+      "es": "./assets/locales/es.json",
+      "fr": "./assets/locales/fr.json",
+      "it": "./assets/locales/it.json",
+      "nl": "./assets/locales/nl.json",
+      "pl": "./assets/locales/pl.json",
+      "sv": "./assets/locales/sv.json",
+      "ru": "./assets/locales/ru.json",
+      "ja": "./assets/locales/ja.json",
+      "zh": "./assets/locales/zh.json",
+      "pt": "./assets/locales/pt.json",
+      "ar": "./assets/locales/ar.json",
+      "no": "./assets/locales/no.json",
+      "ko": "./assets/locales/ko.json",
+      "hi": "./assets/locales/hi.json"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ibragim.mydreamjornal",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "icon": "./assets/images/icons_ios/icon-a.png",
+      "buildNumber": "25"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icons_android/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ibragim.mydreamjornal",
+      "versionCode": 4
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "sentry org slug, or use the `SENTRY_ORG` environment variable",
+          "project": "sentry project name, or use the `SENTRY_PROJECT` environment variable",
+          "url": "https://sentry.io/"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0C111C",
+          "android": {
+            "image": "./assets/images/icons_android/adaptive-icon.png",
+            "resizeMode": "contain"
+          }
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "configureAndroidBackup": true,
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow $(PRODUCT_NAME) to use Face ID."
+        }
+      ],
+      "expo-localization",
+      "expo-build-properties",
+      "expo-notifications",
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "mydream-ai",
+          "organization": "mydream-6o"
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
+      ],
+      [
+        "expo-alternate-app-icons",
+        [
+          {
+            "name": "IconA",
+            "ios": "./assets/images/icons_ios/icon-a.png",
+            "android": {
+              "backgroundColor": "#001413",
+              "foregroundImage": "./assets/images/icons_ios/icon-a.png"
+            }
+          },
+          {
+            "name": "IconB",
+            "ios": "./assets/images/icons_ios/icon-b.png",
+            "android": {
+              "backgroundColor": "#001413",
+              "foregroundImage": "./assets/images/icons_ios/icon-b.png"
+            }
+          },
+          {
+            "name": "IconC",
+            "ios": "./assets/images/icons_ios/icon-c.png",
+            "android": {
+              "backgroundColor": "#001413",
+              "foregroundImage": "./assets/images/icons_ios/icon-c.png"
+            }
+          },
+          {
+            "name": "IconD",
+            "ios": "./assets/images/icons_ios/icon-d.png",
+            "android": {
+              "backgroundColor": "#001413",
+              "foregroundImage": "./assets/images/icons_ios/icon-d.png"
+            }
+          },
+          {
+            "name": "IconE",
+            "ios": "./assets/images/icons_ios/icon-e.png",
+            "android": {
+              "backgroundColor": "#001413",
+              "foregroundImage": "./assets/images/icons_ios/icon-e.png"
+            }
+          }
+        ]
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "54058143-abbd-4d5b-9312-df6cd116c6db"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/54058143-abbd-4d5b-9312-df6cd116c6db"
+    },
+    "owner": "ibragimlol"
+  }
+}

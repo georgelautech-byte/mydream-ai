@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Use Face ID to quickly and securely sign in to the app and confirm actions (e.g., saving sleep logs). Face ID data never leaves your device.",
+  "NSMicrophoneUsageDescription": "The microphone is used when you tap “Record Dream” — we convert your speech to text for dream analysis. The recording is sent securely for transcription and then immediately deleted; it is not stored on our servers."
+}

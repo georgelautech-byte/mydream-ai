@@ -1,0 +1,4 @@
+{
+  "NSFaceIDUsageDescription": "Use o Face ID para entrar rapidamente e com segurança no aplicativo e confirmar ações (ex.: salvar registros de sono). Os dados do Face ID nunca saem do seu dispositivo.",
+  "NSMicrophoneUsageDescription": "O microfone é usado quando você toca em “Gravar sonho” — sua fala é convertida em texto para análise do sonho. A gravação é enviada com segurança para transcrição e imediatamente apagada; não é armazenada em nossos servidores."
+}
